@@ -1,0 +1,208 @@
+BPM: 120
+TIME_SIG: 4/4
+
+// Style: Medium Tempo Blues Shuffle in G
+// Structure: 8-bar blues solo feature for Guitar
+// Overall mood: Soulful, with a classic blues feel.
+// Instruments:
+// G: Lead Guitar (Solo) - Gibson ES-335 type sound with slight overdrive.
+// B: Bass - Walking bass line, round tone.
+// D: Drums - Shuffle groove.
+// K: Keyboard - Hammond organ style chords/pads.
+
+// --- BAR 1: G7 (I chord) ---
+// Intro to the solo. Guitar enters with a simple, expressive phrase.
+// Drums establish a steady shuffle. Bass walks on G. Keyboard provides G7 harmony.
+//shuffle pattern: kick on 1, 3. snare on 2, 4. hi-hat on x.00, x.33, x.66 (simplified here to x.00, x.50 with swing implied by comments, or more explicit x.00, x.66)
+// Using x.00 and x.66 for hi-hat to imply shuffle feel more directly.
+1:1.00 D:(Kick HiHatC):e
+1:1.00 B:G1:q
+1:1.00 K:(G3 B3 F4):h // G7 chord: G (root), B (3rd), F (b7th) - omitting 5th for cleaner organ sound
+1:1.00 G:G4:q. // Guitar solo starts with a sustained G, blues feel
+1:1.50 D:Kick:e // Optional ghost kick to reinforce shuffle
+1:1.66 D:HiHatC:e
+1:2.00 D:(Snare HiHatC):e
+1:2.00 B:D2:q
+1:2.50 G:Bb4:e // Bluesy minor third
+1:2.66 D:HiHatC:e
+1:3.00 D:(Kick HiHatC):e
+1:3.00 B:G2:q
+1:3.00 G:C5:e // Moving up
+1:3.50 G:Bb4:e // Classic blues inflection
+1:3.66 D:HiHatC:e
+1:4.00 D:(Snare HiHatC):e
+1:4.00 B:D2:q
+1:4.00 G:G4:q // Resolving the first short phrase
+
+// --- BAR 2: C7 (IV chord) ---
+// Harmonic change to C7. Guitar responds with a new phrase.
+// Bass walks over C. Keyboard shifts to C7. Drums maintain shuffle.
+2:1.00 D:(Kick HiHatC):e
+2:1.00 B:C2:q
+2:1.00 K:(C3 E3 Bb3):h // C7 chord: C (root), E (3rd), Bb (b7th)
+2:1.00 G:C4:q // Guitar phrase acknowledges C7 harmony
+2:1.50 D:Kick:e
+2:1.66 D:HiHatC:e
+2:2.00 D:(Snare HiHatC):e
+2:2.00 B:G2:q
+2:2.00 G:Eb4:e // Using Eb, the minor third of C, for bluesy feel over C7
+2:2.50 G:C4:e
+2:2.66 D:HiHatC:e
+2:3.00 D:(Kick HiHatC):e
+2:3.00 B:C2:q
+2:3.00 G:G4:e // Targeting G, the 5th of C7
+2:3.50 G:F4:e // Bluesy lick around C7
+2:3.66 D:HiHatC:e
+2:4.00 D:(Snare HiHatC):e
+2:4.00 B:G2:q
+2:4.00 G:Eb4:q // Holding on the bluesy note
+
+// --- BAR 3: G7 (I chord) ---
+// Return to G7. Guitar phrase continues, linking back to the home key.
+// Bass walks on G. Keyboard back to G7.
+3:1.00 D:(Kick HiHatC):e
+3:1.00 B:G1:q
+3:1.00 K:(G3 B3 F4):h // G7 chord
+3:1.00 G:D4:q // Guitar phrase returning to G7 notes
+3:1.50 D:Kick:e
+3:1.66 D:HiHatC:e
+3:2.00 D:(Snare HiHatC):e
+3:2.00 B:D2:q
+3:2.00 G:Bb3:e // Lower octave, more soulful
+3:2.50 G:G3:e // // Comment: Implied bend up to G3 from F#3
+3:2.66 D:HiHatC:e
+3:3.00 D:(Kick HiHatC):e
+3:3.00 B:G2:q
+3:3.00 G:C4:e
+3:3.50 G:D4:e // Ascending line
+3:3.66 D:HiHatC:e
+3:4.00 D:(Snare HiHatC):e
+3:4.00 B:D2:q
+3:4.00 G:Bb3:q // Another bluesy minor third emphasis
+
+// --- BAR 4: G7 (I chord) ---
+// Staying on G7. Guitar develops the idea, perhaps building a little tension.
+// Slight variation in keyboard voicing for interest.
+4:1.00 D:(Kick HiHatC):e
+4:1.00 B:G1:q
+4:1.00 K:(G2 D3 F3 B3):h // Lower G7 voicing for variety
+4:1.00 G:G4:e. // Rhythmic phrase start
+4:1.25 G:A4:s // Quick passing tone
+4:1.50 G:Bb4:e // // Comment: Classic blues bend from A4 to Bb4
+4:1.66 D:HiHatC:e
+4:2.00 D:(Snare HiHatC):e
+4:2.00 B:D2:q
+4:2.50 G:G4:q
+4:2.66 D:HiHatC:e
+4:3.00 D:(Kick HiHatC):e
+4:3.00 B:G2:q
+4:3.00 G:D4:e
+4:3.50 G:C4:e // Descending line
+4:3.66 D:HiHatC:e
+4:4.00 D:(Snare HiHatC):e // Slight snare accent
+4:4.00 B:D2:q
+4:4.00 G:Bb3:q // End phrase, anticipating next change
+
+// --- BAR 5: D7 (V chord) ---
+// Move to D7 (dominant). Guitar solo shifts to outline D7, often with more intensity.
+// Bass walks on D. Keyboard to D7.
+5:1.00 D:(Kick HiHatC):e
+5:1.00 B:D2:q
+5:1.00 K:(D3 F#3 C4):h // D7 chord: D (root), F# (3rd), C (b7th)
+5:1.00 G:A4:q // Guitar targeting A, the 5th of D7
+5:1.50 D:Kick:e
+5:1.66 D:HiHatC:e
+5:2.00 D:(Snare HiHatC):e
+5:2.00 B:A2:q
+5:2.00 G:C5:e // // Comment: Targeting C, the b7 of D7, with a high bend implied
+5:2.50 G:A4:e
+5:2.66 D:HiHatC:e
+5:3.00 D:(Kick HiHatC):e
+5:3.00 B:D2:q
+5:3.00 G:F#4:e // The major 3rd of D7
+5:3.50 G:D4:e // Root of D7
+5:3.66 D:HiHatC:e
+5:4.00 D:(Snare HiHatC):e
+5:4.00 B:A2:q
+5:4.00 G:C4:q // Holding b7 of D7
+
+// --- BAR 6: C7 (IV chord) ---
+// Back to C7 (subdominant). Guitar phrase responds to this change.
+// Bass walks on C. Keyboard to C7.
+6:1.00 D:(Kick HiHatC):e
+6:1.00 B:C2:q
+6:1.00 K:(C3 E3 Bb3):h // C7 chord
+6:1.00 G:G4:e // Guitar phrase connects from D7 to C7, G is 5th of C
+6:1.50 G:Eb4:e // Blues note over C7
+6:1.66 D:HiHatC:e
+6:2.00 D:(Snare HiHatC):e
+6:2.00 B:G2:q
+6:2.00 G:C4:q // Root of C7
+6:2.66 D:HiHatC:e
+6:3.00 D:(Kick HiHatC):e
+6:3.00 B:C2:q
+6:3.00 G:Bb3:e // b7 of C7 in lower octave
+6:3.50 G:G3:e
+6:3.66 D:HiHatC:e
+6:4.00 D:(Snare HiHatC):e
+6:4.00 B:G2:q
+6:4.00 G:C4:q // Ending phrase on C
+
+// --- BAR 7: G7 (I chord) ---
+// Resolution back to G7. Guitar plays a more conclusive phrase.
+// Bass walks on G. Keyboard back to G7.
+7:1.00 D:(Kick HiHatC):e
+7:1.00 B:G1:q
+7:1.00 K:(G3 B3 F4):h // G7 chord
+7:1.00 G:D4:e // Guitar building a resolving lick
+7:1.25 G:C4:s
+7:1.50 G:Bb3:e // Classic G blues lick fragment
+7:1.66 D:HiHatC:e
+7:2.00 D:(Snare HiHatC):e
+7:2.00 B:D2:q
+7:2.00 G:G3:q. // Holding root note G3
+7:2.66 D:HiHatC:e
+7:3.00 D:(Kick HiHatC):e
+7:3.00 B:G2:q
+7:3.00 G:Bb3:e // // Comment: Slide up to Bb3
+7:3.50 G:C4:e
+7:3.66 D:HiHatC:e
+7:4.00 D:(Snare HiHatC):e
+7:4.00 B:D2:q
+7:4.00 G:D4:q // Leading towards turnaround
+
+// --- BAR 8: D7 (V chord - Turnaround) ---
+// Final bar, D7 functioning as a turnaround to lead back to G7 (or end).
+// Guitar plays a characteristic turnaround lick. Drums add a fill.
+// Bass outlines D7 strongly. Keyboard provides D7 tension.
+8:1.00 D:(Kick HiHatC):e
+8:1.00 B:D2:q
+8:1.00 K:(D3 F#3 A3 C4):q // Fuller D7 voicing for turnaround
+8:1.00 G:A4:e // Start of turnaround lick on D7 (5th)
+8:1.25 G:C5:s // b7
+8:1.50 G:A4:e
+8:1.66 D:HiHatC:e
+8:2.00 D:(Snare HiHatC):e
+8:2.00 B:A2:q
+8:2.00 K:(D3 F#3 A3 C4):q // Keyboard re-articulates
+8:2.00 G:F#4:e // 3rd of D7
+8:2.50 G:D4:e // Root of D7
+8:2.66 D:HiHatC:e
+8:3.00 D:(Kick HiHatC):e
+8:3.00 B:C2:e // Chromatic passing tone C (b7 of D)
+8:3.00 G:A3:e // Part of a common turnaround walk-up
+8:3.25 B:B1:e // Chromatic B (leading to C or part of G chord)
+8:3.50 D:HiHatC:e
+8:3.50 B:Bb1:e // Chromatic Bb (blue note / b3 of G)
+8:3.50 G:C4:e // // Comment: These notes (A3, C4, D#4 over D7) are typical turnaround sounds
+8:3.75 B:A1:e // Walking down to G
+8:3.75 G:D#4:e // Chromatic passing note to lead to G (E is major 6th of G) - D# is Enharmonic Eb
+// Drum Fill for turnaround
+8:4.00 D:Snare:s
+8:4.00 B:G1:q // Bass resolves to G on beat 4, anticipating next bar
+8:4.00 G:G4:q // Guitar lands on G, ready for repeat or end. // Comment: Could be a long sustained note or bend.
+8:4.25 D:TomH:s
+8:4.50 D:TomM:s
+8:4.75 D:TomL:s // Fill ends the 8 bars
+
+// End of 8-bar blues solo section

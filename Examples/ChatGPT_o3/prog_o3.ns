@@ -1,0 +1,180 @@
+BPM: 108
+TIME_SIG: 7/4
+
+// Style: 70s progressive rock in 7/4 (3+4). Em tonality shifting to G major.
+// Instruments: B = Bass (octave jumps and chromatic approach notes), D = Drums (tight kit with occasional toms and ride), G = Guitar (overdriven power chords and melodic fragments), K = Keyboard (Mellotron strings and organs).
+// Structure: Bars 1-2 establish main riff in Em. Bars 3-4 develop with syncopation and harmonic color. Bars 5-6 modulate to G major. Bars 7-8 build tension with chromatic bass and tom fills, ending on a crash hit.
+
+// Bar 1: Main Em riff, drums lay 3+4 accents, keyboard sets dark pad.
+1:1.00 D:(Kick HiHatC):e
+1:1.00 B:(E2 E3):q
+1:1.00 G:(E3 B3 E4):q
+1:2.00 D:HiHatC:e
+1:3.00 D:(Snare HiHatC):e
+1:3.00 K:(E4 G4 B4):h
+1:4.00 D:HiHatC:e
+1:4.00 G:(G3 B3 E4):q
+1:4.00 B:E2:q
+1:5.00 D:(Kick HiHatC):e
+1:5.00 B:(E2 E3):q
+1:5.00 G:(E3 B3 E4):q
+1:6.00 D:HiHatC:e
+1:6.00 K:(E4 G4 B4):q
+1:6.50 D:HiHatC:e
+1:7.00 D:(Snare HiHatC):e
+1:7.00 G:D4:q
+1:7.00 B:D2:q
+
+// Bar 2: Riff variation, bass steps down to D, subtle modal color from guitar.
+2:1.00 D:(Kick HiHatC):e
+2:1.00 B:(E2 D3):q
+2:1.00 G:(E3 B3 D4):q
+2:2.00 D:HiHatC:e
+2:3.00 D:(Snare HiHatC):e
+2:3.00 K:(D4 G4 B4):h
+2:4.00 D:HiHatC:e
+2:4.00 G:(F#3 A3 D4):q
+2:4.00 B:D2:q
+2:5.00 D:(Kick HiHatC):e
+2:5.00 G:(E3 B3 G4):q
+2:5.00 B:E2:q
+2:6.00 D:HiHatC:e
+2:6.00 K:(E4 G4 B4):q
+2:6.50 D:HiHatC:e
+2:7.00 D:(Snare HiHatC):e
+2:7.00 G:F#4:q
+2:7.00 B:F#2:q
+
+// Bar 3: Development, ride cymbal replaces hat, guitar hits G major, bass syncopates.
+3:1.00 D:(Kick RideE):e
+3:1.00 B:(G2 G3):q
+3:1.00 G:(G3 D4 G4):q
+3:1.50 D:RideE:e
+3:2.00 D:RideE:e
+3:2.00 G:(A3 C4 E4):q
+3:2.00 B:A2:q
+3:3.00 D:(Snare RideE):e
+3:3.00 K:(C4 E4 G4):h
+3:4.00 D:RideE:e
+3:4.00 G:(B3 D4 F#4):q
+3:4.00 B:B2:q
+3:5.00 D:(Kick RideE):e
+3:5.50 D:RideE:e
+3:6.00 D:(Snare RideE):e
+3:6.00 G:(E3 G3 B3):q
+3:6.00 B:E2:q
+3:6.50 D:RideE:e
+3:7.00 D:(Kick Snare RideE):e
+3:7.00 G:F#4:q
+3:7.00 B:F#2:q
+
+// Bar 4: Short drum fill, guitar syncopated stabs, sets up modulation.
+4:1.00 D:(Kick HiHatC):e
+4:1.00 B:(E2 E3):q
+4:1.00 G:(E3 B3 E4):q
+4:2.00 D:HiHatC:e
+4:2.50 D:TomH:s
+4:2.75 D:TomM:s
+4:3.00 D:(Snare HiHatC):e
+4:3.00 K:(E4 G4 B4 D5):h
+4:4.00 D:HiHatC:e
+4:4.25 D:TomL:s
+4:4.50 D:Snare:s
+4:4.75 D:TomM:s
+4:5.00 D:(Kick HiHatC):e
+4:5.00 G:(A3 C4 E4):q
+4:5.00 B:A2:q
+4:6.00 D:HiHatC:e
+4:6.00 K:(C4 E4 G4):q
+4:6.50 D:HiHatC:e
+4:7.00 D:(Snare HiHatC):e
+4:7.00 G:G4:q
+4:7.00 B:G2:q
+
+// Bar 5: Modulation to G major, Mellotron Gadd9 pad, brightening mood.
+5:1.00 D:(Kick HiHatC):e
+5:1.00 B:G2:q
+5:1.00 G:(G3 D4 G4):h
+5:1.00 K:(G4 B4 D5 A5):h
+5:2.00 D:HiHatC:e
+5:3.00 D:(Snare HiHatC):e
+5:3.00 G:(C4 E4 G4):q
+5:3.00 B:C3:q
+5:4.00 D:HiHatC:e
+5:4.00 K:(D4 F#4 A4):q
+5:5.00 D:(Kick HiHatC):e
+5:5.00 B:G2:q
+5:5.00 G:(G3 D4 G4):q
+5:6.00 D:HiHatC:e
+5:6.50 D:HiHatC:e
+5:7.00 D:(Snare HiHatC):e
+5:7.00 G:B4:q
+5:7.00 B:B2:q
+
+// Bar 6: G major continues, keyboard Bm → Em, preparing tension.
+6:1.00 D:(Kick HiHatC):e
+6:1.00 B:(G2 D3):q
+6:1.00 G:(G3 B3 D4):q
+6:2.00 D:HiHatC:e
+6:3.00 D:(Snare HiHatC):e
+6:3.00 K:(B3 D4 F#4):h
+6:4.00 D:HiHatC:e
+6:4.00 G:(E3 B3 E4):q
+6:4.00 B:E2:q
+6:5.00 D:(Kick HiHatC):e
+6:5.00 G:(A3 D4 F#4):q
+6:5.00 B:D2:q
+6:6.00 D:HiHatC:e
+6:6.50 D:HiHatC:e
+6:7.00 D:(Snare HiHatC):e
+6:7.00 K:(G4 B4 D5):q
+6:7.00 G:G4:q
+6:7.00 B:G2:q
+
+// Bar 7: Chromatic climb, toms and ride cymbal, big tension build.
+7:1.00 D:(TomL RideE):e
+7:1.00 B:E2:e
+7:1.00 G:(E3 B3 G4):h
+7:1.00 K:(E4 G4 B4 D5):h
+7:1.50 D:RideE:e
+7:2.00 D:(TomM RideE):e
+7:2.00 B:F2:e
+7:2.50 D:RideE:e
+7:3.00 D:(TomH RideE):e
+7:3.00 B:F#2:e
+7:3.50 D:RideE:e
+7:4.00 D:(Snare RideE):e
+7:4.00 B:G2:e
+7:4.00 G:(G3 D4 G4):q
+7:4.00 K:(G4 B4 D5):q
+7:5.00 D:(Kick HiHatO):e
+7:5.00 B:G#2:e
+7:5.50 D:HiHatO:e
+7:6.00 D:(Snare HiHatC):e
+7:6.00 B:A2:e
+7:6.50 D:HiHatC:e
+7:7.00 D:(TomL TomM TomH):s
+7:7.00 G:A4:q
+7:7.00 K:(A4 C#5 E5):q
+7:7.00 B:A2:q
+
+// Bar 8: Big Em11 hit, drum fill with crash, resolves section.
+8:1.00 D:(Crash1 Kick):q
+8:1.00 B:(E2 E3):h
+8:1.00 G:(E3 A3 D4 G4):h
+8:1.00 K:(E4 G4 A4 D5):h
+8:2.00 D:HiHatC:e
+8:3.00 D:(Snare HiHatC):e
+8:3.50 D:HiHatC:e
+8:4.00 D:(Kick HiHatC):e
+8:4.50 D:HiHatC:e
+8:5.00 D:(Snare HiHatC):e
+8:5.50 D:HiHatC:e
+8:6.00 D:TomM:s
+8:6.25 D:TomH:s
+8:6.50 D:TomL:s
+8:6.75 D:Snare:s
+8:7.00 D:(Crash1 Kick):q
+8:7.00 G:(E3 B3 D4 G4):q
+8:7.00 B:E2:q
+8:7.00 K:(E4 G4 B4 D5):q

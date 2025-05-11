@@ -1,0 +1,94 @@
+BPM: 120
+TIME_SIG: 4/4
+
+// Section: Jazz Head (AABA Form)
+// Style: Laid-back swing with walking bass, comping guitar/keyboard, and brush drums
+// Key: F major (with typical jazz extensions and substitutions)
+// Mood: Late-night smoky club vibe
+
+// Bar 1-2: A section - Imaj7 to VIm7
+// Walking bass outlines harmony. Guitar plays Freddie Green-style chords. Drums use brushes.
+1:1.00 D:(RideE BrushL):q       // Brush sweep on ride with left hand
+1:1.00 B:F2:e                   // Walking bass begins
+1:1.00 G:(F3 A3 C4 E4):h        // FMaj7 chord (drop 2 voicing)
+1:1.25 K:(F4 A4 C5 E5):h        // Keyboard doubles guitar an octave up
+1:1.50 B:G2:e                   // Bass walks up
+1:2.00 D:(BrushR Snare):e       // Brushed snare backbeat
+1:2.00 B:A2:e
+1:2.00 G:(F3 A3 C4 E4):q        // Guitar re-articulates chord
+1:2.50 B:Bb2:e                  // Chromatic approach
+1:3.00 D:(RideE BrushL):q
+1:3.00 B:C3:e                   // Resolution to Dm7
+1:3.00 G:(D3 F3 A3 C4):h        // Dm7 chord
+1:3.50 K:(D4 F4 A4 C5):h        // Keyboard with richer voicing
+1:3.75 B:Eb3:e                  // Walking down
+1:4.00 D:(BrushR Snare):e
+1:4.00 B:D3:e
+1:4.25 G:(D3 F3 A3 C4):q        // Anticipated chord hit
+1:4.50 B:E3:e                   // Leading tone approach
+
+// Bar 3-4: A section repeat with variation
+// Bass adds more chromaticism. Guitar uses shell voicings. Keyboard adds fills.
+2:1.00 D:(RideE BrushL):q
+2:1.00 B:F2:e
+2:1.00 G:(F3 C4 E4 A4):h        // FMaj7 (3rd inversion)
+2:1.25 K:(F4 A4 C5):q           // Keyboard sparse comping
+2:1.50 K:E5:s                   // Upper neighbor tone
+2:1.75 K:F5:s                   // Resolution
+2:1.50 B:G2:e
+2:2.00 D:(BrushR Snare):e
+2:2.00 B:A2:e
+2:2.25 G:(F3 C4 E4 A4):q        // Staccato chord
+2:2.50 B:Bb2:e
+2:3.00 D:(RideE BrushL):q
+2:3.00 B:C3:e
+2:3.00 G:(D3 A3 C4 F4):h        // Dm7 (drop 3)
+2:3.50 K:(D4 F4 A4):e           // Keyboard responds
+2:3.75 K:G4:e                   // Added 9th
+2:4.00 D:(BrushR Snare):e
+2:4.00 B:Bb2:e
+2:4.25 G:(D3 A3 C4 F4):q        // Anticipated hit
+2:4.50 B:C3:e                   // Leading to B section
+
+// Bar 5-6: B section (Bridge) - III-VI-II-V progression
+// More active bass line. Guitar switches to four-to-the-bar. Drums open up slightly.
+3:1.00 D:(RideC BrushL):q       // Ride bell for change
+3:1.00 B:A2:e                   // A7alt (V of Dm)
+3:1.00 G:(A3 C#4 E4 G4):q       // A7 chord
+3:1.50 K:(C#4 E4 G4 Bb4):q      // Keyboard adds b9 tension
+3:1.50 B:G2:e
+3:2.00 D:(BrushR Snare):e
+3:2.00 B:F2:e                   // Dm7
+3:2.00 G:(D3 F3 A3 C4):q
+3:2.50 B:E2:e
+3:3.00 D:(RideC BrushL):q
+3:3.00 B:G2:e                   // G7alt (V of C)
+3:3.00 G:(G3 B3 D4 F4):q
+3:3.50 K:(B3 D4 F4 Ab4):q       // Keyboard adds #9
+3:3.50 B:F#2:e
+3:4.00 D:(BrushR Snare):e
+3:4.00 B:F2:e                   // FMaj7
+3:4.00 G:(F3 A3 C4 E4):q
+3:4.50 K:(A3 C4 E4 G4):q        // Keyboard adds 9th
+
+// Bar 7-8: A section return with turnaround
+// Bass walks chromatically down. Guitar uses diminished passing chords. Drums build intensity.
+4:1.00 D:(RideE Crash1):q       // Slightly more aggressive
+4:1.00 B:F2:e
+4:1.00 G:(F3 A3 C4 E4):q
+4:1.50 K:(F3 Bb3 Db4 E4):q      // Keyboard plays F7b9 (tritone sub)
+4:1.50 B:E2:e
+4:2.00 D:(Snare HiHatO):e       // Open hi-hat for accent
+4:2.00 B:Eb2:e
+4:2.00 G:(Eb3 G3 Bb3 D4):q      // Ebmaj7 (chromatic approach)
+4:2.50 B:D2:e
+4:3.00 D:(RideE BrushL):q
+4:3.00 B:Db2:e
+4:3.00 G:(C3 E3 G3 Bb3):q       // C7 chord
+4:3.50 K:(E3 G3 Bb3 Db4):q      // Adds b9
+4:3.50 B:C2:e
+4:4.00 D:(Snare Crash1):e       // Accent on turnaround
+4:4.00 B:B1:e                   // Walking down to...
+4:4.25 G:(Bb2 D3 F3 A3):e       // Bb7 (V of V)
+4:4.50 B:Bb1:e                  // ...resolve to F in next chorus
+4:4.75 G:(A2 C3 E3 G3):e        // A7b9 (tritone sub of Eb7)

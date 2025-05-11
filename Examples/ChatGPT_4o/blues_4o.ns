@@ -1,0 +1,155 @@
+BPM: 90
+TIME_SIG: 4/4
+
+// Section: Blues Solo in A - Laid-back, expressive phrasing
+// Instruments: Lead Guitar solo (G), supporting rhythm guitar (G), Bass (B), Drums (D)
+// Style: Slow blues shuffle in A. Guitar uses expressive bends, triplets, and rests. Bass outlines the 12-bar blues progression. Drums emphasize backbeat and subtle swing.
+
+// Bar 1: Establishing the groove. A7 chord implied.
+// Bass plays A root. Rhythm guitar strums A7. Lead guitar opens with a classic pickup phrase.
+1:1.00 D:(Kick HiHatC):e
+1:1.00 B:A2:q
+1:1.00 G:(A3 E4 G4):q          // Rhythm guitar A7 voicing
+1:1.00 G:C5:e                  // Lead guitar phrase start - expressive triplet pickup
+1:1.33 G:D5:s
+1:1.66 G:C5:s
+1:1.50 D:HiHatC:e
+1:2.00 D:(Snare HiHatC):e
+1:2.50 D:HiHatC:e
+1:3.00 D:(Kick HiHatC):e
+1:3.00 B:A2:q
+1:3.00 G:C5:e
+1:3.33 G:E5:s
+1:3.66 G:C5:s
+1:3.50 D:HiHatC:e
+1:4.00 D:(Snare HiHatC):e
+1:4.50 D:HiHatC:e
+
+// Bar 2: Continuation. Bass repeats A2. Lead guitar bends up to a blue note (Eb).
+// Rhythm guitar repeats A7. Mood: emotive.
+2:1.00 D:(Kick HiHatC):e
+2:1.00 B:A2:q
+2:1.00 G:(A3 E4 G4):q
+2:1.00 G:(C5 D#5):e           // Bend from C to Eb
+2:1.50 D:HiHatC:e
+2:2.00 D:(Snare HiHatC):e
+2:2.00 G:A4:e
+2:2.50 D:HiHatC:e
+2:3.00 D:(Kick HiHatC):e
+2:3.00 B:A2:q
+2:3.00 G:E4:q
+2:3.50 D:HiHatC:e
+2:4.00 D:(Snare HiHatC):e
+2:4.00 G:D5:q
+2:4.50 D:HiHatC:e
+
+// Bar 3: D7 chord implied. Bass walks to D. Guitar solo outlines D mixolydian.
+// Call and response phrasing begins.
+3:1.00 D:(Kick HiHatC):e
+3:1.00 B:D2:q
+3:1.00 G:(D3 F#4 C5):q        // Rhythm guitar D7 voicing
+3:1.00 G:A4:e
+3:1.50 D:HiHatC:e
+3:2.00 D:(Snare HiHatC):e
+3:2.00 G:G4:e
+3:2.50 D:HiHatC:e
+3:3.00 D:(Kick HiHatC):e
+3:3.00 B:D2:q
+3:3.00 G:F#4:e
+3:3.50 G:D5:e
+3:3.50 D:HiHatC:e
+3:4.00 D:(Snare HiHatC):e
+3:4.00 G:A4:e
+3:4.50 D:HiHatC:e
+
+// Bar 4: Back to A7. Bass returns to A. Lead guitar responds with a staccato motif.
+4:1.00 D:(Kick HiHatC):e
+4:1.00 B:A2:q
+4:1.00 G:(A3 E4 G4):q
+4:1.00 G:C5:e
+4:1.50 G:C5:e
+4:1.50 D:HiHatC:e
+4:2.00 D:(Snare HiHatC):e
+4:2.00 G:A4:q
+4:2.50 D:HiHatC:e
+4:3.00 D:(Kick HiHatC):e
+4:3.00 B:A2:q
+4:3.00 G:(E4 A4):e
+4:3.50 G:D5:e
+4:3.50 D:HiHatC:e
+4:4.00 D:(Snare HiHatC):e
+4:4.50 D:HiHatC:e
+
+// Bar 5: E7 chord. Solo climbs high to emphasize tension.
+// Rhythm guitar plays tight E7. Bass walks up to E.
+5:1.00 D:(Kick HiHatC):e
+5:1.00 B:E2:q
+5:1.00 G:(E3 G#4 D5):q
+5:1.00 G:F#5:e
+5:1.50 D:HiHatC:e
+5:2.00 D:(Snare HiHatC):e
+5:2.00 G:G5:e
+5:2.50 D:HiHatC:e
+5:3.00 D:(Kick HiHatC):e
+5:3.00 B:E2:q
+5:3.00 G:E5:e
+5:3.50 G:C#5:e
+5:3.50 D:HiHatC:e
+5:4.00 D:(Snare HiHatC):e
+5:4.00 G:B4:q
+5:4.50 D:HiHatC:e
+
+// Bar 6: D7 response. Solo dips rhythmically, syncopated line.
+// Guitar uses triplets. Rhythm stays tight.
+6:1.00 D:(Kick HiHatC):e
+6:1.00 B:D2:q
+6:1.00 G:(D3 F#4 C5):q
+6:1.00 G:A4:e
+6:1.33 G:F#4:s
+6:1.66 G:D4:s
+6:1.50 D:HiHatC:e
+6:2.00 D:(Snare HiHatC):e
+6:2.50 D:HiHatC:e
+6:3.00 D:(Kick HiHatC):e
+6:3.00 B:D2:q
+6:3.00 G:G4:e
+6:3.50 G:A4:e
+6:3.50 D:HiHatC:e
+6:4.00 D:(Snare HiHatC):e
+6:4.00 G:F#4:e
+6:4.50 D:HiHatC:e
+
+// Bar 7: A7 returns. Solo starts to wind up. Phrases slow, leaving space.
+7:1.00 D:(Kick HiHatC):e
+7:1.00 B:A2:q
+7:1.00 G:(A3 E4 G4):h
+7:1.00 G:D5:h
+7:1.50 D:HiHatC:e
+7:2.00 D:(Snare HiHatC):e
+7:2.50 D:HiHatC:e
+7:3.00 D:(Kick HiHatC):e
+7:3.00 B:A2:q
+7:3.50 D:HiHatC:e
+7:4.00 D:(Snare HiHatC):e
+7:4.00 G:C5:q
+7:4.50 D:HiHatC:e
+
+// Bar 8: Turnaround - Bass walks from A to E. Guitar outlines E7#9.
+// Lead ends with a high phrase preparing the next chorus.
+8:1.00 D:(Kick HiHatC):e
+8:1.00 B:A2:e
+8:1.00 G:(E3 G#4 D5):h         // E7 chord
+8:1.00 G:(G5 D6):q             // Lead - high double stop
+8:1.50 D:HiHatC:e
+8:2.00 D:(Snare HiHatC):e
+8:2.00 B:C#3:e
+8:2.50 D:HiHatC:e
+8:3.00 D:(Kick HiHatC):e
+8:3.00 B:D3:e
+8:3.00 G:C6:e
+8:3.50 G:B5:e
+8:3.50 D:HiHatC:e
+8:4.00 D:(Snare HiHatC):e
+8:4.00 B:E2:q
+8:4.00 G:E5:q
+8:4.50 D:HiHatC:e

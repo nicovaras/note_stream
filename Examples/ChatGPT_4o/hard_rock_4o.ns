@@ -1,0 +1,142 @@
+BPM: 145
+TIME_SIG: 4/4
+
+// Section: Hard Rock Solo
+// Mood: Aggressive, high-energy solo section. Guitar leads with fast licks, bass supports harmonically, drums drive hard with fills and variations.
+// Harmony centers around E minor with modal shifts and bluesy embellishments.
+// Guitar uses pentatonic and Dorian licks with some chromatic passing tones.
+// Keyboard adds subtle harmonic support — not dominant here, mostly long pads or omitted.
+// Drum patterns intensify with syncopation and fills. Snare accents and tom runs build momentum.
+// ---
+
+// Bar 1: Solo kicks off. Guitar opens with a classic E minor pentatonic phrase.
+// Bass lays down root. Drums hit with full force on beat 1.
+1:1.00 D:(Crash1 Kick):q
+1:1.00 B:E2:q
+1:1.00 G:(E4 G4 A4 B4):e
+1:1.50 G:D5:e
+1:2.00 D:(Snare HiHatC):e
+1:2.00 G:B4:e
+1:2.50 G:G4:e
+1:3.00 D:(Kick HiHatC):e
+1:3.00 B:E2:q
+1:3.00 G:E5:s
+1:3.25 G:D5:s
+1:3.50 G:E5:e
+1:4.00 D:(Snare HiHatC):e
+1:4.00 G:G5:e
+1:4.50 G:B4:e
+
+// Bar 2: Builds with a run to high E, then drop back. Drums support with steady beat.
+2:1.00 D:(Kick HiHatC):e
+2:1.00 B:E2:q
+2:1.00 G:(G4 A4 B4 D5):s
+2:1.25 G:E5:s
+2:1.50 G:D5:e
+2:2.00 D:(Snare HiHatC):e
+2:2.00 G:B4:e
+2:2.50 G:A4:e
+2:3.00 D:(Kick HiHatC):e
+2:3.00 B:D2:q
+2:3.00 G:G4:q
+2:4.00 D:(Snare HiHatC):e
+2:4.00 G:E4:e
+2:4.50 D:HiHatC:e
+
+// Bar 3: Shift into bluesy phrasing. Chromaticism and syncopation. Bass hits G, D.
+// Guitar targets b5. Hints of E blues scale.
+3:1.00 D:(Crash1 Kick):e
+3:1.00 B:G2:q
+3:1.00 G:G4:s
+3:1.25 G:G#4:s
+3:1.50 G:A4:e
+3:2.00 D:(Snare HiHatC):e
+3:2.00 G:C5:e
+3:2.50 G:B4:e
+3:3.00 D:(Kick HiHatC):e
+3:3.00 B:D2:q
+3:3.00 G:E5:s
+3:3.25 G:D5:s
+3:3.50 G:B4:e
+3:4.00 D:(Snare HiHatC):e
+3:4.00 G:(A4 E5):e
+3:4.50 G:G4:e
+
+// Bar 4: Climax of first phrase set. High run, rhythmic syncopation. Drum fill starts.
+// Guitar bends and hits high E.
+4:1.00 D:(Kick HiHatC):e
+4:1.00 B:E2:q
+4:1.00 G:(B4 D5 E5):s
+4:1.25 G:F#5:s
+4:1.50 G:E5:e
+4:2.00 D:(Snare HiHatC):e
+4:2.00 G:B4:e
+4:2.50 G:A4:e
+4:3.00 D:(Kick HiHatC):e
+4:3.00 B:C3:q
+4:3.00 G:(E4 G4):q
+4:4.00 D:Snare:s
+4:4.25 D:TomH:s
+4:4.50 D:TomM:s
+4:4.75 D:TomL:s
+
+// Bar 5: Second phrase set. Lower range lick starts bluesy and builds. Rhythm section simplifies to reset.
+5:1.00 D:(Kick HiHatC):e
+5:1.00 B:E2:q
+5:1.00 G:E4:e
+5:1.50 G:G4:e
+5:2.00 D:(Snare HiHatC):e
+5:2.00 G:A4:e
+5:2.50 G:B4:e
+5:3.00 D:(Kick HiHatC):e
+5:3.00 B:A2:q
+5:3.00 G:G4:s
+5:3.25 G:A4:s
+5:3.50 G:B4:e
+5:4.00 D:(Snare HiHatC):e
+5:4.00 G:D5:e
+5:4.50 G:E5:e
+
+// Bar 6: Modal shift — Dorian feel. Guitar plays lick with natural 6 (C#). Drums groove. Bass follows.
+6:1.00 D:(Kick HiHatC):e
+6:1.00 B:F#2:q
+6:1.00 G:(F#4 A4 C#5):q
+6:2.00 D:(Snare HiHatC):e
+6:2.00 G:E5:e
+6:2.50 G:D5:e
+6:3.00 D:(Kick HiHatC):e
+6:3.00 B:E2:q
+6:3.00 G:(E4 G4 B4):q
+6:4.00 D:(Snare HiHatC):e
+6:4.00 G:A4:e
+6:4.50 G:B4:e
+
+// Bar 7: Guitar holds chord, sets up final run. Drum accents. Bass hits root.
+7:1.00 D:(Crash1 Kick):q
+7:1.00 B:E2:q
+7:1.00 G:(E4 G4 B4):h
+7:2.00 D:(Snare HiHatC):e
+7:2.50 D:HiHatC:e
+7:3.00 D:(Kick HiHatC):e
+7:3.00 G:D5:q
+7:4.00 D:(Snare HiHatC):e
+7:4.00 G:E5:e
+7:4.50 G:F#5:e
+
+// Bar 8: Final climax — shredding line ending on high E. Drums play outro fill. Bass holds root.
+8:1.00 D:(Kick HiHatC):e
+8:1.00 B:E2:h
+8:1.00 G:G4:s
+8:1.25 G:A4:s
+8:1.50 G:B4:e
+8:2.00 D:(Snare HiHatC):e
+8:2.00 G:D5:e
+8:2.50 G:E5:e
+8:3.00 D:(Kick HiHatC):e
+8:3.00 G:F#5:s
+8:3.25 G:G5:s
+8:3.50 G:E5:e
+8:4.00 D:Snare:s
+8:4.25 D:TomH:s
+8:4.50 D:TomM:s
+8:4.75 D:Crash1:s     // End hit

@@ -1,0 +1,130 @@
+### NoteStream Musical Notation Protocol ###
+
+**Objective:** Generate musical sequences for Bass (B), Drums (D), Guitar (G), and Keyboard (K) in a textual format optimized for parsing by scripts and conversion to MIDI. You must generate the music STRICTLY following this format.
+
+**General Structure:**
+1.  **Metadata (Optional but recommended):** At the beginning, define the tempo and time signature.
+2.  **Comments:** Lines starting with `//` to provide context (ignored by the parser). Crucial for guiding and understanding the generation.
+3.  **Event List:** Chronological sequence of musical events, one per line.
+
+**1. Metadata:**
+* `BPM: <value>`: Beats Per Minute (tempo). Example: `BPM: 120`
+* `TIME_SIG: <num>/<den>`: Musical time signature. Example: `TIME_SIG: 4/4`, `TIME_SIG: 6/8`
+
+**2. Comments:**
+* Any line beginning with `//` is a comment.
+* **Be generous with comments.** They are vital for conveying musical ideas, structure (e.g., `// Verse 1`, `// Chorus`, `// Bridge`, `// Guitar Riff Start`), harmonic changes (`// Modulation to C minor`, `// Tension build-up G7sus4`), rhythmic motifs, dynamics, or any nuance that aids in composing and understanding a high-quality piece. Think of them as essential annotations for the musical narrative.
+    ```
+    // Bar 1: Simple rock beat intro
+    // Acoustic Guitar enters with Am chord
+    // Mood: Laid back
+    // ---
+    // Bar 5: Verse 1 - Vocals would start here
+    // Bassline becomes more melodic
+    // Keyboard adds soft pads (Cmaj7)
+    ```
+
+**3. Event Line Format:**
+Each line represents one or more notes that begin at a specific moment.
+Format: `Time Instrument:Note(s):Duration`
+
+* **Time:** Indicates when the event starts.
+    * Format: `Bar:Beat.DecimalSubdivision`
+    * `Bar`: Bar number (starts at 1).
+    * `Beat`: Beat number within the bar (starts at 1).
+    * `.DecimalSubdivision`: Decimal fraction *within* the beat (0.00 to 0.99). Assumes 1 beat = 1.0.
+        * Common examples in 4/4 (beat = quarter note):
+            * `1:1.00` (Start of Bar 1)
+            * `1:1.50` (Eighth note offbeat of Beat 1)
+            * `1:1.25` (Second sixteenth note of Beat 1)
+            * `1:1.75` (Fourth sixteenth note of Beat 1)
+            * `2:3.00` (Start of Beat 3 in Bar 2)
+            * `4:4.66` (Approx. the last hit of an eighth note triplet on Beat 4)
+    * **IMPORTANT:** Events must be listed in strictly chronological order (by Bar, then by Beat.Subdivision).
+
+* **Instrument:** Instrument code.
+    * `B`: Bass
+    * `D`: Drums
+    * `G`: Guitar
+    * `K`: Keyboard
+
+* **Note(s):** The note(s) that sound.
+    * **Bass (B) / Guitar (G) / Keyboard (K) - Single Note:** Standard scientific notation: Letter (A-G), optional accidental (#/b), octave number. Examples: `E2`, `C#4`, `Ab5`, `G1`.
+    * **Drums (D):** Standard General MIDI (GM) map names. Use these names (you can use upper/lower case, but be consistent):
+        * Kick Drum: `Kick`
+        * Snare Drum: `Snare`
+        * Closed Hi-Hat: `HiHatC`
+        * Open Hi-Hat: `HiHatO`
+        * Pedal Hi-Hat: `HiHatP`
+        * Crash Cymbal: `Crash1` (or other numbers: `Crash2`)
+        * Ride Cymbal (edge): `RideE` (Edge)
+        * Ride Cymbal (bell): `RideC` (Cup/Bell)
+        * High Tom: `TomH`
+        * Mid Tom: `TomM`
+        * Low Tom: `TomL`
+        * Rimshot: `Rim`
+        * Clap: `Clap`
+    * **Simultaneous Notes / Chords:** Group notes/drum sounds that start EXACTLY at the same time in parentheses `()`, separated by spaces.
+        * Drum Example: `D:(Kick Snare)` -> Kick and snare at the same time.
+        * Guitar Example (C Major Chord): `G:(C4 E4 G4)`
+        * Bass Example (Octaves): `B:(E2 E3)`
+        * Keyboard Example (C Major Chord): `K:(C4 E4 G4)` (Note: example used 'S' for synth, changed to 'K' for Keyboard as per instrument list)
+
+
+* **Duration:** How long the note sounds. Use standard symbols:
+    * `w`: Whole note
+    * `h`: Half note
+    * `q`: Quarter note
+    * `e`: Eighth note
+    * `s`: Sixteenth note
+    * `t`: Thirty-second note
+    * `.` (Dot): Add a dot after the symbol to indicate dotted (increases duration by 50%). Examples: `q.` (dotted quarter), `e.` (dotted eighth).
+
+**Silence:** Silence is represented by the absence of note events for an instrument during a period of time. There is no specific symbol for silence.
+
+**Complete Example (illustrating comment usage) (2 bars):**
+
+```text
+BPM: 110
+TIME_SIG: 4/4
+
+// Section: Intro
+// Bar 1: Rock groove starts in A minor. Driving but not too heavy.
+// Guitar plays a simple A minor power chord. Bass doubles guitar root.
+// Drums establish a basic 4/4 pattern.
+1:1.00 D:(Kick HiHatC):e       // Kick and HiHat together
+1:1.00 B:A2:q                 // Bass on A
+1:1.00 G:(A3 E4 A4):q         // Guitar A minor chord (A3, E4, A4)
+1:1.50 D:HiHatC:e             // Offbeat HiHat
+1:2.00 D:(Snare HiHatC):e     // Snare on beat 2 with HiHat
+1:2.00 G:C4:q                 // Guitar melody note C4 (part of Am implied harmony)
+1:2.50 D:HiHatC:e
+// Harmonic movement within A minor feel
+1:3.00 D:(Kick HiHatC):e
+1:3.00 B:C3:q                 // Bass moves to C
+1:3.00 G:(G3 D4 G4):q         // Guitar G major chord (implies C major over C bass, or G as dominant of C)
+1:3.50 D:HiHatC:e
+1:4.00 D:(Snare HiHatC):e
+1:4.00 G:E4:q                 // Guitar melody note E4
+1:4.50 D:HiHatC:e
+
+// Bar 2: Continuation of intro groove, slight variation.
+// Guitar chord held longer. Bass changes to G, setting up a possible repeat or change.
+// Drum fill at the end of the bar.
+2:1.00 D:(Kick HiHatC):e
+2:1.00 B:A2:q                 // Bass back to A
+2:1.00 G:(A3 E4 A4):h         // Guitar A minor chord, held for a half note
+2:1.50 D:HiHatC:e
+2:2.00 D:(Snare HiHatC):e
+2:2.50 D:HiHatC:e
+// Bass anticipates next section or repeats
+2:3.00 D:(Kick HiHatC):e
+2:3.00 B:G2:q                 // Bass moves to G (leading tone or new root)
+2:3.50 D:HiHatC:e
+// Drum Fill: Snare -> TomH -> TomM -> TomL
+2:4.00 D:Snare:s              // Start of fill
+2:4.25 D:TomH:s
+2:4.50 D:TomM:s
+2:4.75 D:TomL:s               // End of fill, leading into next bar
+
+Instruction: Now, using only the NoteStream format described above, generate: 8 bars of jazz. Ensure to include metadata. Crucially, use **plentiful and descriptive comments** throughout your generation to explain the musical structure, harmonic progressions, rhythmic ideas, instrument roles, and overall intent of each section or significant change. Events must be in strictly chronological order.

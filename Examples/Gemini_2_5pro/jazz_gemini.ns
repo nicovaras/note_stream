@@ -1,0 +1,201 @@
+BPM: 140
+TIME_SIG: 4/4
+
+// This 8-bar jazz piece features a common chord progression (related to F blues or rhythm changes)
+// with a medium swing feel. Instruments include Drums (D), Bass (B), Keyboard (K), and Guitar (G).
+// The intention is to create a classic, smooth jazz combo sound.
+// Drums: Ride cymbal focused swing beat with pedal hi-hat. Light kicks and snare accents.
+// Bass: Walking bass lines outlining the chord changes.
+// Keyboard: Four-note voicings for chords, generally sustained.
+// Guitar: Mix of comping (often 3rds and 7ths) and short melodic lines.
+
+// Section: Main Theme (Bars 1-8)
+// Progression: Fmaj7 | Em7b5 A7alt | Dm7 | G7 | Cm7 | F7 | Bbmaj7 | Gm7 C7 || (turnaround to Fmaj7)
+
+// Bar 1: Fmaj7
+// Mood: Smooth opening, establishing the F major tonality.
+// Drums: Standard swing ride pattern (quarter, eighth-eighth triplet feel) with pedal hi-hat on 2 & 4. Kick on 1.
+// Bass: Walking F-A-C-E for Fmaj7.
+// Keyboard: Fmaj7 chord (F A C E) played on beat 1, held for a half note.
+// Guitar: Comps with 3rd (A) and 7th (E) of Fmaj7 on beat 3.
+1:1.00 D:(Kick RideE):e       // Kick with Ride on beat 1
+1:1.00 B:F2:q                 // Bass F (root of Fmaj7)
+1:1.00 K:(F3 A3 C4 E4):h    // Keyboard Fmaj7 chord
+1:1.66 D:RideE:e              // Swing offbeat for ride (completes "1 & a")
+1:2.00 D:(RideE HiHatP):e   // Ride on beat 2, HiHat Pedal on 2
+1:2.00 B:A2:q                 // Bass A (3rd of Fmaj7)
+1:2.66 D:RideE:e              // Swing offbeat for ride
+1:3.00 D:RideE:e              // Ride on beat 3
+1:3.00 B:C3:q                 // Bass C (5th of Fmaj7)
+1:3.00 G:(A3 E4):q            // Guitar comps A3 E4 (3rd and 7th of Fmaj7)
+1:3.66 D:RideE:e              // Swing offbeat for ride
+1:4.00 D:(RideE HiHatP):e   // Ride on beat 4, HiHat Pedal on 4
+1:4.00 B:E3:q                 // Bass E (7th of Fmaj7)
+1:4.66 D:RideE:e              // Swing offbeat for ride
+
+// Bar 2: Em7b5 (2 beats) -> A7alt (2 beats)
+// Harmonic progression: ii-V type movement (Em7b5 - A7alt) leading to Dm7.
+// Bass: E-G for Em7b5, then A-C# for A7alt.
+// Keyboard: Em7b5 (E G Bb D), then a rootless A7alt (C# F G Bb -> 3rd, #5/b13, b7, b9).
+// Guitar: Comps chord tones for each chord.
+// Drums: Consistent swing feel. Light snare on 'and' of beat 2.
+2:1.00 D:(Kick RideE):e
+2:1.00 B:E2:q                 // Bass E (root of Em7b5)
+2:1.00 K:(E3 G3 Bb3 D4):q     // Keyboard Em7b5 chord
+2:1.66 D:RideE:e
+2:2.00 D:(RideE HiHatP):e
+2:2.00 B:G2:q                 // Bass G (minor 3rd of Em7b5)
+2:2.00 G:(Bb3 D4):e           // Guitar comps Bb (b5) and D (b7) of Em7b5
+2:2.50 D:Snare:s               // Light snare ghost note
+2:2.66 D:RideE:e
+// --- A7alt from beat 3 ---
+2:3.00 D:(Kick RideE):e        // Kick with Ride for A7alt chord change emphasis
+2:3.00 B:A2:q                 // Bass A (root of A7alt)
+2:3.00 K:(C#4 F4 G3 Bb3):h    // Keyboard A7alt voicing (3rd, #5, b7, b9 relative to A), held for 2 beats
+2:3.66 D:RideE:e
+2:4.00 D:(RideE HiHatP):e
+2:4.00 B:C#3:q                // Bass C# (3rd of A7alt)
+2:4.00 G:(C#4 F4):q           // Guitar comps C# (3rd) and F (#5/b13) of A7alt
+2:4.66 D:RideE:e
+
+// Bar 3: Dm7
+// Resolution to Dm7.
+// Bass: Walking Dm7 (D-A-C-F).
+// Keyboard: Dm7 chord (D F A C).
+// Guitar: Short melodic line in D minor (F-E-D-C-A).
+// Drums: Steady swing, accented snare on beat 4.
+3:1.00 D:(Kick RideE):e
+3:1.00 B:D2:q                 // Bass D (root of Dm7)
+3:1.00 K:(D3 F3 A3 C4):h    // Keyboard Dm7 chord
+3:1.00 G:F4:e                 // Guitar melodic line starts on F4
+3:1.50 G:E4:e                 // Guitar melody E4
+3:1.66 D:RideE:e
+3:2.00 D:(RideE HiHatP):e
+3:2.00 B:A2:q                 // Bass A (5th of Dm7)
+3:2.00 G:D4:e                 // Guitar melody D4
+3:2.50 G:C4:e                 // Guitar melody C4
+3:2.66 D:RideE:e
+3:3.00 D:RideE:e
+3:3.00 B:C3:q                 // Bass C (b7 of Dm7)
+3:3.00 G:A3:q                 // Guitar melody ends on A3
+3:3.66 D:RideE:e
+3:4.00 D:(RideE HiHatP Snare):e // Snare with Ride/HiHatP for accent on beat 4
+3:4.00 B:F2:q                 // Bass F (minor 3rd of Dm7)
+3:4.66 D:RideE:e
+
+// Bar 4: G7
+// Dominant G7, typically leads to C or Cm. Here, setting up Cm7.
+// Bass: Walking G7 (G-B-D-F).
+// Keyboard: G7 chord (G B D F).
+// Guitar: Comping G7 (B and F - 3rd and b7).
+// Drums: Swing with a light snare ghost note towards the end of the bar.
+4:1.00 D:(Kick RideE):e
+4:1.00 B:G2:q                 // Bass G (root of G7)
+4:1.00 K:(G3 B3 D4 F4):h    // Keyboard G7 chord
+4:1.66 D:RideE:e
+4:2.00 D:(RideE HiHatP):e
+4:2.00 B:B2:q                 // Bass B (3rd of G7)
+4:2.00 G:(B3 F4):q            // Guitar comps 3rd and b7 of G7
+4:2.66 D:RideE:e
+4:3.00 D:RideE:e
+4:3.00 B:D3:q                 // Bass D (5th of G7)
+4:3.66 D:RideE:e
+4:4.00 D:(RideE HiHatP):e
+4:4.00 B:F3:q                 // Bass F (b7 of G7)
+4:4.50 D:Snare:s               // Snare ghost note leading into Bar 5
+4:4.66 D:RideE:e
+
+// Bar 5: Cm7
+// Modulation to Cm7.
+// Bass: Walking Cm7 (C-Eb-G-Bb). Octave choice for smoothness.
+// Keyboard: Cm7 chord (C Eb G Bb), voiced slightly higher.
+// Guitar: Light comping on an offbeat (Eb and Bb - b3 and b7 of Cm7).
+// Drums: Steady swing.
+5:1.00 D:(Kick RideE):e
+5:1.00 B:C3:q                 // Bass C (root of Cm7)
+5:1.00 K:(C4 Eb4 G4 Bb4):h  // Keyboard Cm7 chord (higher octave voicing)
+5:1.66 D:RideE:e
+5:2.00 D:(RideE HiHatP):e
+5:2.00 B:Eb3:q                // Bass Eb (minor 3rd of Cm7)
+5:2.50 G:(Eb4 Bb4):e          // Guitar comps b3 and b7 of Cm7 on the 'and' of 2
+5:2.66 D:RideE:e
+5:3.00 D:RideE:e
+5:3.00 B:G3:q                 // Bass G (5th of Cm7)
+5:3.66 D:RideE:e
+5:4.00 D:(RideE HiHatP):e
+5:4.00 B:Bb2:q                // Bass Bb (b7 of Cm7), drops octave
+5:4.66 D:RideE:e
+
+// Bar 6: F7
+// Dominant F7, leading to Bbmaj7.
+// Bass: Walking F7 (F-A-C-Eb).
+// Keyboard: F7 chord (F A C Eb).
+// Guitar: Comping F7 (A and Eb - 3rd and b7).
+// Drums: Snare with ride on beat 3 for a slight push.
+6:1.00 D:(Kick RideE):e
+6:1.00 B:F2:q                 // Bass F (root of F7)
+6:1.00 K:(F3 A3 C4 Eb4):h   // Keyboard F7 chord
+6:1.66 D:RideE:e
+6:2.00 D:(RideE HiHatP):e
+6:2.00 B:A2:q                 // Bass A (3rd of F7)
+6:2.00 G:(A3 Eb4):q           // Guitar comps 3rd and b7 of F7
+6:2.66 D:RideE:e
+6:3.00 D:(RideE Snare):e       // Snare with ride for emphasis on beat 3
+6:3.00 B:C3:q                 // Bass C (5th of F7)
+6:3.66 D:RideE:e
+6:4.00 D:(RideE HiHatP):e
+6:4.00 B:Eb3:q                // Bass Eb (b7 of F7)
+6:4.66 D:RideE:e
+
+// Bar 7: Bbmaj7
+// Resolution to Bbmaj7.
+// Bass: Walking Bbmaj7 (Bb-D-F-A).
+// Keyboard: Bbmaj7 chord (Bb D F A).
+// Guitar: Short melodic line in Bb major (D-C-Bb-A-F).
+// Drums: Snare accent on beat 4 with Ride/HiHatP, anticipating turnaround.
+7:1.00 D:(Kick RideE):e
+7:1.00 B:Bb2:q                // Bass Bb (root of Bbmaj7)
+7:1.00 K:(Bb2 D3 F3 A3):h   // Keyboard Bbmaj7 chord
+7:1.00 G:D4:e                 // Guitar melodic line starts on D4
+7:1.50 G:C4:e                 // Guitar melody C4
+7:1.66 D:RideE:e
+7:2.00 D:(RideE HiHatP):e
+7:2.00 B:D3:q                 // Bass D (3rd of Bbmaj7)
+7:2.00 G:Bb3:e                // Guitar melody Bb3
+7:2.50 G:A3:e                 // Guitar melody A3
+7:2.66 D:RideE:e
+7:3.00 D:RideE:e
+7:3.00 B:F3:q                 // Bass F (5th of Bbmaj7)
+7:3.00 G:F3:q                 // Guitar melody ends on F3
+7:3.66 D:RideE:e
+7:4.00 D:(RideE HiHatP Snare):e // Snare accent on beat 4
+7:4.00 B:A2:q                 // Bass A (7th of Bbmaj7)
+7:4.66 D:RideE:e
+
+// Bar 8: Gm7 (2 beats) -> C7 (2 beats) - Turnaround
+// Classic ii-V turnaround (Gm7-C7) leading back to Fmaj7 (start of the 8-bar form).
+// Bass: G-Bb for Gm7, then C-E for C7.
+// Keyboard: Gm7 chord, then C7 chord.
+// Guitar: Comping both chords.
+// Drums: Steady swing then a short, crisp fill on beat 4 using Snare, TomM, TomL, and Crash.
+8:1.00 D:(Kick RideE):e
+8:1.00 B:G2:q                 // Bass G (root of Gm7)
+8:1.00 K:(G2 Bb2 D3 F3):q     // Keyboard Gm7 chord
+8:1.66 D:RideE:e
+8:2.00 D:(RideE HiHatP):e
+8:2.00 B:Bb2:q                // Bass Bb (minor 3rd of Gm7)
+8:2.00 G:(D3 F3):e            // Guitar comps D (5th) and F (b7) of Gm7
+8:2.50 G:(Bb2 G2):e           // Guitar continues with Bb (b3) and G (root)
+8:2.66 D:RideE:e
+// --- C7 from beat 3 ---
+8:3.00 D:(Kick RideE):e       // Kick with Ride for C7 emphasis
+8:3.00 B:C2:q                 // Bass C (root of C7)
+8:3.00 K:(C3 E3 G3 Bb3):q     // Keyboard C7 chord
+8:3.00 G:(E3 Bb3):q           // Guitar comps E (3rd) and Bb (b7) of C7
+8:3.66 D:RideE:e              // Last ride hit of the bar's main pattern
+// --- Drum Fill on Beat 4 ---
+8:4.00 D:(HiHatP Snare):s     // HiHatP continues, Snare starts fill on beat 4
+8:4.00 B:E2:q                 // Bass E (3rd of C7), sustains through fill
+8:4.25 D:Snare:s              // Fill: Snare on the 'e' of 4 (& of an 8th, or second 16th)
+8:4.50 D:TomM:s               // Fill: Mid Tom on the 'a' of 4 (third 16th)
+8:4.75 D:(TomL Crash1):s      // Fill: Low Tom and Crash Cymbal on the last 16th, concluding the 8 bars.

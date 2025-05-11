@@ -1,0 +1,237 @@
+BPM: 140
+TIME_SIG: 4/4
+
+// Section: Hard Rock Guitar Solo (8 Bars)
+// Key: E minor
+// Overall Feel: Driving, energetic, with building intensity.
+
+// Bar 1: Kick-off! Em
+// Guitar starts with a strong pentatonic phrase in E minor.
+// Drums establish a solid rock groove with a crash on beat 1.
+// Bass plays root notes, emphasizing the E minor tonality.
+// Keyboard provides an Em power chord pad.
+1:1.00 D:(Kick Crash1 HiHatO):e // Big start with open hi-hat
+1:1.00 B:E2:q // Bass hits E
+1:1.00 K:(E3 B3 E4):h // Keyboard Em power chord
+1:1.00 G:E4:e // Guitar solo begins - root note
+1:1.25 G:G4:e // Quick movement up
+1:1.50 D:HiHatC:e // Closed hi-hat for groove
+1:1.50 G:A4:e // Continue phrase
+1:1.75 G:B4:s // Faster note
+1:2.00 D:(Snare HiHatC):e
+1:2.00 G:G4:e // Back down
+1:2.25 G:E4:s
+1:2.50 D:HiHatC:e
+1:2.50 G:D4:e // Adding a D, implies Em7 sound
+1:2.75 G:E4:s
+1:3.00 D:(Kick HiHatC):e
+1:3.00 B:E2:q // Bass re-articulates E
+1:3.00 G:G4:q // Held note with attitude // (Comment: Suggest slight bend here)
+1:3.50 D:HiHatC:e
+1:4.00 D:(Snare HiHatC):e
+1:4.00 G:B3:e // Lower, punchy note
+1:4.50 D:HiHatC:e
+1:4.50 G:D4:e // Leading to next bar
+
+// Bar 2: Developing the Em feel
+// Guitar continues, building on the first bar's motif, adding more 16th notes.
+// Drums maintain the groove, maybe a slight hi-hat variation.
+// Bass adds a passing tone.
+// Keyboard sustains Em.
+2:1.00 D:(Kick HiHatC):e
+2:1.00 B:E2:e
+2:1.00 K:(E3 B3 E4):h // Keyboard continues Em
+2:1.00 G:E4:s // Start of a faster run
+2:1.25 G:G4:s
+2:1.50 D:HiHatC:e
+2:1.50 B:G2:e // Bass passing tone
+2:1.50 G:A4:s
+2:1.75 G:B4:s
+2:2.00 D:(Snare HiHatC):e
+2:2.00 B:E2:q
+2:2.00 G:E5:e // Jump to higher octave E
+2:2.25 G:D5:s // (Comment: Suggest pull-off to D5)
+2:2.50 D:HiHatC:e
+2:2.50 G:B4:e
+2:2.75 G:A4:s
+2:3.00 D:(Kick HiHatC):e
+2:3.00 B:D2:q // Bass on D, implies Em7 or movement
+2:3.00 G:G4:e // Descending phrase
+2:3.25 G:E4:s
+2:3.50 D:HiHatC:e
+2:3.50 G:D4:e
+2:3.75 G:B3:s
+2:4.00 D:(Snare HiHatC):e
+2:4.00 G:E4:q // Ending phrase on E, slightly longer
+2:4.50 D:HiHatC:e // Fill lead-in
+
+// Bar 3: Modulation to C Major
+// Harmony shifts to C. Guitar solo adapts, perhaps with a bluesier feel.
+// Drums accent the change. Bass moves to C.
+// Keyboard plays a C major chord.
+3:1.00 D:(Kick Crash1 HiHatC):e // Crash emphasizes chord change
+3:1.00 B:C2:q
+3:1.00 K:(C3 G3 C4):h // Keyboard C major chord
+3:1.00 G:C4:e // Guitar targets C
+3:1.25 G:E4:e // (Comment: Slight bend on E4)
+3:1.50 D:HiHatC:e
+3:1.50 G:G4:e
+3:1.75 G:C5:s
+3:2.00 D:(Snare HiHatC):e
+3:2.00 G:Bb4:e // Bluesy flat 7th over C (implies C7)
+3:2.25 G:G4:s
+3:2.50 D:HiHatC:e
+3:2.50 G:E4:e
+3:2.75 G:C4:s
+3:3.00 D:(Kick HiHatC):e
+3:3.00 B:C2:q
+3:3.00 G:D4:q // Tension note D over C
+3:3.50 D:HiHatC:e
+3:4.00 D:(Snare HiHatC):e
+3:4.00 G:E4:e
+3:4.50 D:HiHatC:e
+3:4.50 G:G4:e // Leading to G chord in next bar
+
+// Bar 4: Harmony G Major
+// Solo continues over G major, perhaps a melodic sequence.
+// Bass plays G. Drums steady.
+// Keyboard plays a G major chord.
+4:1.00 D:(Kick HiHatC):e
+4:1.00 B:G1:q // Low G for Bass
+4:1.00 K:(G2 D3 G3):h // Keyboard G major chord
+4:1.00 G:G4:s // Start sequence on G
+4:1.25 G:B4:s
+4:1.50 D:HiHatC:e
+4:1.50 G:D5:s
+4:1.75 G:G5:s // High G
+4:2.00 D:(Snare HiHatC):e
+4:2.00 G:F#5:e // Descending from high G // (Comment: Suggest vibrato)
+4:2.25 G:D5:s
+4:2.50 D:HiHatC:e
+4:2.50 G:B4:e
+4:2.75 G:G4:s
+4:3.00 D:(Kick HiHatC):e
+4:3.00 B:G2:q // Bass octave up for variety
+4:3.00 G:A4:e // Building tension towards Am
+4:3.25 G:B4:s
+4:3.50 D:HiHatC:e
+4:3.50 G:C5:e
+4:3.75 G:D5:s // Ascending line
+4:4.00 D:(Snare HiHatC):e // Drum fill preparation
+4:4.00 G:E5:q // Landing on E, leading to Am
+4:4.50 D:TomH:s // Small tom fill
+4:4.75 D:TomM:s
+
+// Bar 5: Intensity builds - Am
+// Shift to A minor. Guitar plays a faster, more aggressive phrase.
+// Drums become more active, perhaps ride cymbal.
+// Bass on A. Keyboard on Am.
+5:1.00 D:(Kick Crash1 RideE):e // Ride cymbal for driving feel
+5:1.00 B:A1:q
+5:1.00 K:(A2 E3 A3):h // Keyboard Am chord
+5:1.00 G:A4:s // Fast A minor pentatonic run
+5:1.25 G:C5:s
+5:1.50 D:RideE:e
+5:1.50 G:D5:s
+5:1.75 G:E5:s
+5:2.00 D:(Snare RideE):e
+5:2.00 G:C5:s
+5:2.25 G:A4:s
+5:2.50 D:RideE:e
+5:2.50 G:E5:s
+5:2.75 G:G5:s // (Comment: Fast hammer-on/pull-off sequence)
+5:3.00 D:(Kick RideE):e
+5:3.00 B:A2:q
+5:3.00 G:A5:e // High A
+5:3.25 G:G5:s
+5:3.50 D:RideE:e
+5:3.50 G:E5:e
+5:3.75 G:D5:s
+5:4.00 D:(Snare RideE):e
+5:4.00 G:C5:q // Sustained C over Am
+5:4.50 D:RideE:e
+
+// Bar 6: Continuing Am - Building further
+// Guitar continues the aggressive Am feel, perhaps climbing higher.
+// Drums maintain intensity. Bass rhythmic on A.
+// Keyboard holds Am or adds suspended flavor.
+6:1.00 D:(Kick RideE):e
+6:1.00 B:A1:e
+6:1.00 B:A2:e // Bass octaves
+6:1.00 K:(A2 E3 A3 C4):h // Keyboard Am add C (Am7 feel)
+6:1.00 G:E5:s // Ascending run
+6:1.25 G:G5:s
+6:1.50 D:RideE:e
+6:1.50 G:A5:s
+6:1.75 G:C6:s // Reaching high C
+6:2.00 D:(Snare RideE):e
+6:2.00 B:A1:e
+6:2.00 B:A2:e
+6:2.00 G:B5:e // (Comment: Bend from B5 to C6 and back)
+6:2.25 G:A5:s
+6:2.50 D:RideE:e
+6:2.50 G:G5:e
+6:2.75 G:E5:s
+6:3.00 D:(Kick RideE):e
+6:3.00 B:A1:q
+6:3.00 G:A5:q // Held A5, preparing for D chord
+6:3.50 D:RideE:e
+6:4.00 D:(Snare RideE):e
+6:4.00 G:G5:e // Descent
+6:4.25 G:F#5:s // Leading to D major
+6:4.50 D:TomH:s // Drum fill into D
+6:4.75 D:TomM:s
+
+// Bar 7: Climax on D Major
+// Harmony moves to D major, building to a climax.
+// Guitar plays a fast, high-energy phrase.
+// Drums are powerful, heavy on cymbals, tom fill at end.
+// Bass drives on D. Keyboard plays D major.
+7:1.00 D:(Kick Crash1 HiHatO):e // Emphasize D chord
+7:1.00 B:D2:q
+7:1.00 K:(D3 A3 D4 F#4):h // Keyboard D major
+7:1.00 G:A5:s // Fast flurry over D (A is the 5th of D)
+7:1.25 G:D5:s
+7:1.50 D:HiHatO:e
+7:1.50 G:F#5:s
+7:1.75 G:A5:s
+7:2.00 D:(Snare HiHatO):e
+7:2.00 G:D6:e // Peak note D6! (Comment: Heavy vibrato)
+7:2.25 G:C6:s // Descending shred
+7:2.50 D:HiHatO:e
+7:2.50 G:A5:s
+7:2.75 G:F#5:s
+7:3.00 D:(Kick HiHatO):e
+7:3.00 B:D2:q
+7:3.00 G:D5:e // Repeated notes for emphasis
+7:3.25 G:D5:s
+7:3.50 D:HiHatO:e
+7:3.50 G:E5:e // (Comment: Tapping D5-E5-F#5 sequence rapidly)
+7:3.75 G:F#5:s
+7:4.00 D:Snare:s // Start of closing fill
+7:4.25 D:TomH:s
+7:4.50 D:TomM:s
+7:4.75 D:TomL:s // Big tom fill to end the D section
+
+// Bar 8: Resolution to Em - Grand Finale
+// Solo resolves back to E minor with a final powerful statement.
+// Drums provide a big finish with multiple crashes.
+// Bass lands solidly on E. Keyboard reinforces Em.
+// Guitar holds a final high E or a closing flurry.
+8:1.00 D:(Kick Crash1 Crash2):e // Double crash!
+8:1.00 B:E2:h // Bass holds a long E
+8:1.00 K:(E3 G3 B3 E4):w // Keyboard full Em chord, whole note
+8:1.00 G:E5:q. // High E, sustained // (Comment: Hold with heavy vibrato and slow bend up)
+8:1.50 D:HiHatC:e
+8:2.00 D:(Snare HiHatC):q // Strong snare hit
+8:2.50 D:HiHatC:e
+// Guitar solo might have a final fast descending run here or hold the E5
+8:3.00 D:(Kick Crash1):e // Another kick and crash
+8:3.00 G:B4:s // Final quick flurry E minor pentatonic
+8:3.25 G:A4:s
+8:3.50 D:HiHatC:e
+8:3.50 G:G4:s
+8:3.75 G:E4:s
+8:4.00 D:(Snare Kick Crash2):q // Final beat - big hit!
+8:4.00 G:E3:q // Low E to end with power.
+// --- End of Solo ---

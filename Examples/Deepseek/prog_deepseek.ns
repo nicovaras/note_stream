@@ -1,0 +1,150 @@
+BPM: 132
+TIME_SIG: 7/8
+
+// Section: Intro - Odd-time signature establishes prog feel
+// Harmonic center: E minor with chromatic movement
+// Drums use syncopated pattern with emphasis on ride bell
+// Bass provides driving eighth-note pulse with melodic fills
+1:1.00 D:(Kick RideC):e       // Strong downbeat with ride bell
+1:1.00 B:E2:e                 // Root note establishes tonality
+1:1.00 K:(E3 G4 B4):q.        // E minor chord with wide voicing
+1:1.50 D:Snare:e              // Backbeat displaced due to 7/8
+1:1.50 B:F#2:e                // Chromatic passing tone
+1:2.00 D:RideE:e              // Ride edge for texture change
+1:2.00 B:G2:e                 // Resolution to G (Em implied)
+1:2.50 D:(Kick TomH):e
+1:2.50 B:A2:e                 // Walking bass line continues
+1:3.00 D:Snare:e
+1:3.00 B:B2:e                 // Leading tone to next measure
+1:3.50 D:(RideC Crash1):e     // Accent with crash
+1:3.50 K:(D3 F#4 A4):q        // D major chord for harmonic tension
+
+// Bar 2: Continuation with added guitar counterpoint
+2:1.00 D:(Kick RideC):e
+2:1.00 B:E2:e
+2:1.00 G:(B3 E4 G4):q.        // Guitar enters with Em chord
+2:1.50 D:Snare:e
+2:1.50 B:F#2:e
+2:1.50 G:D4:s                 // Guitar melodic embellishment
+2:1.75 G:E4:s
+2:2.00 D:RideE:e
+2:2.00 B:G2:e
+2:2.00 G:(G3 B3 E4):e         // Guitar arpeggio
+2:2.50 D:(Kick TomM):e
+2:2.50 B:A2:e
+2:2.50 G:F#4:e                // Suspension
+2:3.00 D:Snare:e
+2:3.00 B:B2:e
+2:3.00 G:G4:e                 // Resolution
+2:3.50 D:(RideC HiHatO):e
+2:3.50 K:(C3 E4 G4):q         // C major chord - modal interchange
+
+// Section: Verse (Bars 3-4)
+// Harmonic progression: Em - C - G - D
+// Keyboard adds Mellotron-style string pads
+// Drums simplify slightly to support vocals
+3:1.00 D:(Kick RideE):e
+3:1.00 B:E2:e
+3:1.00 K:(E3 G4 B4):q
+3:1.00 G:0                    // Guitar rests for texture change
+3:1.50 D:Snare:e
+3:1.50 B:G2:e                 // Bass anticipates chord change
+3:2.00 D:RideE:e
+3:2.00 K:(C3 G4 E4):q         // C major chord (modal mixture)
+3:2.00 B:C3:e
+3:2.50 D:(Kick TomL):e
+3:2.50 B:B2:e                 // Walking bass
+3:3.00 D:Snare:e
+3:3.00 K:(G3 B4 D4):q         // G major chord
+3:3.00 B:G2:e
+3:3.50 D:(RideC Crash2):e
+3:3.50 B:A2:e                 // Leading to D chord
+
+// Bar 4: Continuation with guitar re-entry
+4:1.00 D:(Kick RideE):e
+4:1.00 K:(D3 F#4 A4):q
+4:1.00 B:D3:e
+4:1.00 G:(F#3 A3 D4):q        // Guitar adds color
+4:1.50 D:Snare:e
+4:1.50 B:E3:e                 // Bass walks up
+4:2.00 D:RideE:e
+4:2.00 K:(E3 G4 B4):q         // Return to Em
+4:2.00 B:E2:e
+4:2.50 D:(Kick TomH):e
+4:2.50 B:F#2:e
+4:3.00 D:Snare:e
+4:3.00 K:(G3 B4 D4):q         // G major again
+4:3.00 B:G2:e
+4:3.50 D:(RideC HiHatO):e
+4:3.50 B:A2:e
+
+// Section: Instrumental Break (Bars 5-6)
+// Time signature feels more explicit now
+// Guitar takes lead with pentatonic lick
+5:1.00 D:(Kick RideC Crash1):e
+5:1.00 B:E2:e
+5:1.00 K:(E3 G4 B4):q.
+5:1.00 G:E4:e                 // Guitar lick begins
+5:1.50 D:Snare:e
+5:1.50 B:G2:e
+5:1.50 G:G4:e
+5:2.00 D:RideE:e
+5:2.00 B:A2:e
+5:2.00 G:A4:e
+5:2.50 D:(Kick TomM):e
+5:2.50 B:B2:e
+5:2.50 G:B4:e
+5:3.00 D:Snare:e
+5:3.00 B:C3:e
+5:3.00 G:C5:e                 // High note for tension
+5:3.50 D:(RideC HiHatO):e
+5:3.50 B:D3:e
+5:3.50 G:D5:e
+
+// Bar 6: Continuation with syncopated hits
+6:1.00 D:(Kick RideC):e
+6:1.00 B:E2:e
+6:1.00 K:(E3 G4 B4):q
+6:1.00 G:E5:e                 // Lick resolution
+6:1.50 D:Snare:e
+6:1.50 B:F#2:e
+6:1.50 G:F#5:e
+6:2.00 D:RideE:e
+6:2.00 B:G2:e
+6:2.00 G:G5:e
+6:2.50 D:(Kick TomL):e
+6:2.50 B:A2:e
+6:2.50 G:E5:e                 // Octave jump for variety
+6:3.00 D:Snare:e
+6:3.00 B:B2:e
+6:3.00 G:D5:e
+6:3.50 D:(RideC Crash1):e
+6:3.50 B:E3:e                 // High octave for intensity
+6:3.50 G:E5:e
+
+// Section: Outro (Bars 7-8)
+// Build to finale with tutti hits
+// Harmonic rhythm accelerates
+7:1.00 D:(Kick RideC Crash1):e
+7:1.00 B:E2:e
+7:1.00 K:(E3 G4 B4):e
+7:1.00 G:(E3 B3 E4):e
+7:1.50 D:Snare:e
+7:1.50 B:F#2:e
+7:2.00 D:RideE:e
+7:2.00 B:G2:e
+7:2.00 K:(G3 B4 D4):e         // Faster chord change
+7:2.50 D:(Kick TomH):e
+7:2.50 B:A2:e
+7:3.00 D:Snare:e
+7:3.00 B:B2:e
+7:3.00 K:(C3 E4 G4):e         // Chromatic movement
+7:3.50 D:(RideC HiHatO):e
+7:3.50 B:C3:e
+
+// Final bar with ritardando effect (implied)
+8:1.00 D:(Kick Snare RideC Crash1 Crash2):q
+8:1.00 B:E2:q.
+8:1.00 K:(E3 G4 B4):q.
+8:1.00 G:(E3 B3 E4):q.
+// Let ring...

@@ -1,0 +1,140 @@
+BPM: 95
+TIME_SIG: 4/4
+
+// Section: Intro
+// Style: Jazz combo - swing feel. Instruments: Upright Bass, Ride-heavy drums, Jazz Guitar comping, Soft keyboard pads
+// Bar 1: Establishing groove in Bbmaj7. Classic ii-V-I comping. Mood: Smooth and mellow
+1:1.00 D:(RideC HiHatC):e           // Jazz ride pattern starts with light HiHat
+1:1.00 B:Bb1:q                      // Root note of Bbmaj7
+1:1.00 G:(Bb3 D4 F4):q              // Bbmaj7 chord voicing
+1:1.00 K:(Bb3 D4 F4 A4):h           // Keyboard reinforces the harmony with fuller voicing
+1:1.50 D:HiHatC:e
+1:2.00 D:RideC:e
+1:2.00 G:F4:q                       // Guitar adds voice leading color
+1:2.00 B:D2:q                       // Bass outlines third of chord
+1:2.50 D:HiHatC:e
+1:3.00 D:RideC:e
+1:3.00 G:(Eb4 G4 C4):q              // Guitar implies Cm7
+1:3.00 B:C2:q                       // Bass moves to C (ii of Bb)
+1:3.50 D:HiHatC:e
+1:4.00 D:RideC:e
+1:4.00 K:(C3 Eb3 G3 Bb3):q          // Keyboard reinforces Cm7
+
+// Bar 2: ii-V movement from Cm7 to F7
+2:1.00 D:(RideC HiHatC):e
+2:1.00 B:C2:q
+2:1.00 G:(C4 Eb4 G4):q              // Comping on Cm7
+2:1.00 K:(C3 Eb3 G3 Bb3):h
+2:1.50 D:HiHatC:e
+2:2.00 D:(Snare HiHatC):e           // Subtle backbeat for swing flavor
+2:2.00 B:F2:q                       // V chord root
+2:2.00 G:(A3 C4 E4):q               // Implies F13 voicing
+2:2.50 D:HiHatC:e
+2:3.00 D:RideC:e
+2:3.00 K:(F3 A3 C4 D4):q            // Keyboard plays F9
+2:3.00 B:A1:q                       // Bass chromatic walk-up to Bb
+2:3.50 D:HiHatC:e
+2:4.00 D:RideC:e
+2:4.00 G:D4:q                       // Guitar resolves to 3rd of Bbmaj7
+2:4.00 B:Bb1:q
+
+// Bar 3: Back to Bbmaj7, guitar syncopates chord entries
+3:1.00 D:(RideC HiHatC):e
+3:1.00 K:(Bb3 D4 F4 A4):q
+3:1.00 B:Bb1:q
+3:1.25 G:(Bb3 F4):s                 // Guitar hits upbeat comp
+3:1.50 D:HiHatC:e
+3:2.00 D:RideC:e
+3:2.25 G:(D4 A4):s
+3:2.50 D:HiHatC:e
+3:3.00 D:RideC:e
+3:3.00 B:D2:q
+3:3.00 G:(G3 D4 Bb4):q              // Altered voicing hinting Gm7
+3:3.50 D:HiHatC:e
+3:4.00 D:RideC:e
+3:4.00 K:(G3 Bb3 D4 F4):q
+3:4.00 B:G2:q
+
+// Bar 4: ii-V to Eb major. Key modulation starts. Emphasis on voice leading.
+4:1.00 D:(RideC HiHatC):e
+4:1.00 B:Ab2:q                      // ii in Eb major (Fm7)
+4:1.00 G:(Ab3 C4 Eb4):q
+4:1.00 K:(Ab3 C4 Eb4 G4):h
+4:1.50 D:HiHatC:e
+4:2.00 D:Snare:e
+4:2.00 G:(C4 Eb4 G4):q              // Sliding toward Bb7 (V of Eb)
+4:2.00 B:Bb1:q
+4:2.50 D:HiHatC:e
+4:3.00 D:RideC:e
+4:3.00 K:(Bb2 D3 F3 Ab3):q
+4:3.00 G:(Bb3 F4 D4):q
+4:3.00 B:D2:q
+4:3.50 D:HiHatC:e
+4:4.00 D:RideC:e
+4:4.00 B:Eb2:q                      // Landing on I of Eb major
+
+// Bar 5: Restatement in new key - Ebmaj7
+5:1.00 D:(RideC HiHatC):e
+5:1.00 G:(Eb3 G3 Bb3):q
+5:1.00 K:(Eb3 G3 Bb3 D4):h
+5:1.00 B:Eb2:q
+5:1.50 D:HiHatC:e
+5:2.00 D:RideC:e
+5:2.00 G:F4:q
+5:2.00 B:G2:q
+5:2.50 D:HiHatC:e
+5:3.00 D:RideC:e
+5:3.00 K:(Ab3 C4 F4):q              // Implies Abmaj7 or ii7 of Eb
+5:3.00 B:C2:q
+5:3.25 G:(Ab3 F4):s
+5:3.50 D:HiHatC:e
+5:4.00 D:RideC:e
+5:4.00 G:D4:q
+5:4.00 B:F2:q
+
+// Bar 6: ii-V into G minor
+6:1.00 D:(RideC HiHatC):e
+6:1.00 G:(A3 C4 F4):q               // D7 (V of Gm)
+6:1.00 B:A1:q
+6:1.00 K:(A2 C3 F3):h
+6:1.50 D:HiHatC:e
+6:2.00 D:(Snare HiHatC):e
+6:2.00 G:(D3 F#3 C4):q              // Strong V chord in G minor
+6:2.00 B:D2:q
+6:2.50 D:HiHatC:e
+6:3.00 D:RideC:e
+6:3.00 K:(G2 Bb2 D3 F3):q
+6:3.00 B:G1:q
+6:3.50 D:HiHatC:e
+6:4.00 D:RideC:e
+6:4.00 G:(G3 Bb3 D4):q
+
+// Bar 7: Gm7 vamp, setting up for solo or return to head
+7:1.00 D:(RideC HiHatC):e
+7:1.00 K:(G2 Bb2 D3 F3):q
+7:1.00 B:G1:q
+7:1.00 G:(G3 D4 Bb4):q
+7:1.50 D:HiHatC:e
+7:2.00 D:RideC:e
+7:2.25 G:(A3 C4):s
+7:2.50 D:HiHatC:e
+7:3.00 D:RideC:e
+7:3.00 B:D2:q
+7:3.00 G:F4:q
+7:3.50 D:HiHatC:e
+7:4.00 D:RideC:e
+7:4.00 B:G1:q
+7:4.00 G:(G3 Bb3 D4):q
+
+// Bar 8: Drum fill, slight build-up for transition
+8:1.00 D:(RideC HiHatC):e
+8:1.00 B:G1:q
+8:1.00 G:(G3 Bb3 D4):h
+8:2.50 D:HiHatC:e
+8:3.00 D:Snare:s
+8:3.25 D:TomH:s
+8:3.50 D:TomM:s
+8:3.75 D:TomL:s
+8:4.00 D:Crash1:q                 // Marking end of phrase
+8:4.00 K:(Eb3 G3 Bb3):h
+8:4.00 B:Eb2:h

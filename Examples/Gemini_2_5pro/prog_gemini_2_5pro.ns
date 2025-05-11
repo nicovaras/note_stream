@@ -1,0 +1,205 @@
+BPM: 135
+TIME_SIG: 4/4
+
+// Section: Main Riff - E Minor Power
+// Bar 1: Powerful E minor riff kicks off. Driving and syncopated.
+// Mood: Intense, energetic. Classic prog rock opening.
+// Guitar uses power chords. Bass doubles key rhythmic accents.
+// Keyboard lays down a sustained Em organ pad.
+// Drums play a solid rock beat with syncopated kick accents.
+1:1.00 D:(Kick HiHatC):e
+1:1.00 B:E1:e
+1:1.00 G:(E2 B2 E3):e      // E power chord
+1:1.00 K:(E3 G3 B3):w      // Em organ chord sustained for the whole bar
+1:1.50 D:HiHatC:e
+1:1.50 B:E1:e
+1:1.50 G:(E2 B2 E3):e
+1:2.00 D:(Snare HiHatC):q  // Snare on beat 2
+// Beat 2.50 is a rest for Bass & Guitar, creating syncopation
+1:3.00 D:(Kick HiHatC):e
+1:3.00 B:E1:e              // Riff note on '3&'
+1:3.00 G:(E2 B2 E3):e      // Riff note on '3&'
+1:3.50 D:HiHatC:e
+1:3.50 B:B1:e              // Riff melody B
+1:3.50 G:B2:e              // Riff melody B
+1:4.00 D:(Snare HiHatC):q  // Snare on beat 4
+1:4.00 B:C2:q              // Riff melody C
+1:4.00 G:C3:q              // Riff melody C
+
+// Bar 2: Riff continues in E minor, building energy.
+// Slight variation in the riff's tail (D-C# chromatic movement).
+// Drums use open hi-hat for accent on beat 1 and a syncopated kick at the end.
+// Keyboard continues Em organ pad.
+2:1.00 D:(Kick HiHatO):e   // Open HiHat for accent
+2:1.00 B:E1:e
+2:1.00 G:(E2 B2 E3):e
+2:1.00 K:(E3 G3 B3):w      // Continue Em organ
+2:1.50 D:HiHatC:e
+2:1.50 B:E1:e
+2:1.50 G:(E2 B2 E3):e
+2:2.00 D:(Snare HiHatC):q
+// Syncopated rest for B/G on beat 2.50
+2:3.00 D:(Kick HiHatC):e
+2:3.00 B:E1:e
+2:3.00 G:(E2 B2 E3):e
+2:3.50 D:HiHatC:e
+2:3.50 B:D2:e              // Riff variation - moves to D
+2:3.50 G:D3:e              // Riff variation D
+2:4.00 D:(Snare HiHatC):e
+2:4.00 B:C#2:q             // Chromatic movement C#
+2:4.00 G:C#3:q             // Chromatic C#
+2:4.50 D:Kick:e            // Syncopated kick at end of bar
+
+// Section: Transition to C Major
+// Bar 3: Harmony moves from Em towards C major (Em -> D -> C).
+// The riff adapts to the new chords. Bass becomes more melodic.
+// Keyboard changes chords to follow the progression.
+// Drums switch to Ride cymbal for texture change and build slightly with a small tom fill.
+// Em
+3:1.00 D:(Kick RideE):e    // Switch to Ride cymbal
+3:1.00 B:E2:q              // Bass higher octave for clarity
+3:1.00 G:(E2 B2 E3):q      // Em power chord
+3:1.00 K:(E3 G3 B3):q      // Em organ
+3:1.50 D:RideE:e
+// D
+3:2.00 D:(Snare RideE):e
+3:2.00 B:D2:q
+3:2.00 G:(D2 A2 D3):q      // D power chord
+3:2.00 K:(D3 F#3 A3):q     // D major organ
+3:2.50 D:RideE:e
+// C
+3:3.00 D:(Kick RideE):e
+3:3.00 B:C2:h              // Bass holds C
+3:3.00 G:(C2 G2 C3):h      // C power chord held
+3:3.00 K:(C3 E3 G3):h      // C major organ held
+3:3.50 D:RideE:e
+3:4.00 D:(Snare RideE):e
+3:4.50 D:(TomH TomM):e     // Small tom fill leading into 7/8
+
+// Section: Odd Meter Riff
+// Bar 4: Sharp transition to a 7/8 meter. Rhythmic accent shifts. Key C major.
+// The TIME_SIG is globally 4/4, so this bar is 3.5 quarter notes long.
+// The feel is (3+2+2)/8 : (Dotted Quarter, Quarter, Quarter) for main B/G/K accents.
+// This means notes are 3 eighths, then 2 eighths, then 2 eighths long.
+// Guitar and Bass play a tight, syncopated figure in C. Keyboard stabs chords.
+// Drums emphasize the new groove with Ride Bell.
+4:1.00 D:(Kick RideC):e    // Kick with Ride Bell for emphasis
+4:1.00 B:C2:q.             // C Bass, duration 3 eighths (1.5 beats)
+4:1.00 G:(C3 G3 C4):q.     // C power chord, duration 3 eighths
+4:1.00 K:(C3 E3 G3 C4):q.  // C major organ stab, duration 3 eighths
+4:1.50 D:RideC:e
+4:2.00 D:RideC:e
+// Next hit at 1.00 + 1.5 (q.) = 2.50
+4:2.50 D:(Snare RideC):e   // Snare on the 4th eighth note
+4:2.50 B:G1:q              // G Bass (dominant), duration 2 eighths (1 beat)
+4:2.50 G:(G2 D3 G3):q      // G power chord, duration 2 eighths
+4:2.50 K:(G2 B2 D3 G3):q   // G major organ stab, duration 2 eighths
+4:3.00 D:RideC:e
+// Next hit at 2.50 + 1.0 (q) = 3.50
+4:3.50 D:(Kick RideC):e    // Last kick on 6th eighth note
+4:3.50 B:C2:q              // Back to C Bass, duration 2 eighths (1 beat), fills bar
+4:3.50 G:(C3 G3 C4):q      // Back to C power chord, duration 2 eighths
+4:3.50 K:(C3 E3 G3 C4):q   // Back to C major organ, duration 2 eighths
+// End of 7/8 bar (total duration 1.5 + 1.0 + 1.0 = 3.5 quarter notes). Bar 5 starts at 5:1.00.
+
+// Section: New Theme - A Minor Feel
+// Bar 5: Return to 4/4. New thematic material in A minor.
+// Mood becomes slightly more reflective.
+// Keyboard introduces softer pads. Guitar plays cleaner chords. Bass walks.
+// Progression: Am -> G -> Cmaj7
+5:1.00 D:(Kick HiHatC):e
+5:1.00 B:A1:q
+5:1.00 G:(A2 E3 A3 C4):q   // Am(add C) - cleaner guitar tone implied
+5:1.00 K:(A2 C3 E3 G3):q   // Am7 organ chord/pad
+5:1.50 D:HiHatC:e
+5:2.00 D:(Snare HiHatC):e
+5:2.00 B:G1:q              // Moving to G
+5:2.00 G:(G2 D3 G3 B3):q   // G major chord
+5:2.00 K:(G2 B2 D3 F#3):q  // G major organ
+5:2.50 D:HiHatC:e
+5:3.00 D:(Kick HiHatC):e
+5:3.00 B:C2:h              // Bass on C for two beats (as root of Cmaj7)
+5:3.00 G:(C3 E3 G3 B3):h   // Cmaj7 chord on guitar
+5:3.00 K:(C3 E3 G3 B3):h   // Cmaj7 organ chord/pad
+5:3.50 D:HiHatC:e
+5:4.00 D:(Snare HiHatC):e
+5:4.50 D:HiHatC:e
+
+// Bar 6: Developing the A minor theme. Progression: Am -> F -> Gsus4 -> G.
+// Keyboard continues with rich pads, matching harmonic changes.
+// Guitar could arpeggiate these chords. Bass provides solid root movement.
+// Am
+6:1.00 D:(Kick HiHatC):e
+6:1.00 B:A1:q
+6:1.00 G:(A2 E3 C4):q      // Am (simple voicing)
+6:1.00 K:(A2 C3 E3 A3):q   // Am keyboard voicing
+6:1.50 D:HiHatC:e
+// F
+6:2.00 D:(Snare HiHatC):e
+6:2.00 B:F1:q
+6:2.00 G:(F2 A2 C3 F3):q   // F major power chord style
+6:2.00 K:(F2 A2 C3 F3):q   // F major keyboard
+6:2.50 D:HiHatC:e
+// Gsus4
+6:3.00 D:(Kick HiHatC):e
+6:3.00 B:G1:q
+6:3.00 G:(G2 C3 D3 G3):q   // Gsus4 (G C D G)
+6:3.00 K:(G2 C3 D3 G3):q   // Gsus4 keyboard
+6:3.50 D:HiHatC:e
+// G
+6:4.00 D:(Snare HiHatC):e
+6:4.00 B:G1:q
+6:4.00 G:(G2 B2 D3 G3):q   // G major (resolution of sus)
+6:4.00 K:(G2 B2 D3 G3):q   // G major keyboard
+6:4.50 D:(HiHatC Kick):e   // Adding a kick for emphasis
+
+// Section: Build-up / Tension
+// Bar 7: Building tension. Preparing for a return to E minor.
+// Progression: Am -> D/F# -> G -> B7 (dominant of Em).
+// Dynamics increase. Drums become more active, snare becomes busier, ends with a tom fill.
+// Am
+7:1.00 D:(Kick Crash1 HiHatC):e // Crash on beat 1
+7:1.00 B:A1:q
+7:1.00 G:(A2 E3 C4):q      // Am
+7:1.00 K:(A3 C4 E4 A4):q   // Higher Am chord for Kbd
+7:1.50 D:HiHatC:e
+// D/F#
+7:2.00 D:(Snare HiHatC):e
+7:2.00 B:F#1:q             // Bass F#
+7:2.00 G:(D3 A3 D4 F#4):q  // D/F# chord (Guitar includes D A D F#)
+7:2.00 K:(D3 F#3 A3 D4):q  // D/F# Kbd
+7:2.50 D:HiHatC:e
+// G
+7:3.00 D:(Kick HiHatC):e
+7:3.00 B:G1:q
+7:3.00 G:(G3 B3 D4 G4):q   // G major
+7:3.00 K:(G3 B3 D4 G4):q   // G Kbd
+7:3.50 D:HiHatC:e
+// B7
+7:4.00 D:(Snare HiHatC):s   // Snare becomes busier (16th note)
+7:4.00 B:B0:q              // Low B root for B7, for power
+7:4.00 G:(B2 D#3 F#3 A3):q // B7 chord
+7:4.00 K:(B2 D#3 F#3 A3):q // B7 Kbd
+7:4.25 D:Snare:s
+7:4.50 D:TomH:s
+7:4.75 D:TomM:s            // Drum fill building to Bar 8
+
+// Section: Climax / Resolution
+// Bar 8: Climax with a strong resolution to E minor.
+// All instruments hit a powerful Em chord, held.
+// Drums provide a crash and a solid beat, then a final rhythmic punch.
+8:1.00 D:(Kick Crash1 RideE):q // Big hit with Kick, Crash, and Ride edge
+8:1.00 B:E1:h.             // Long E note in Bass (dotted half = 3 beats)
+8:1.00 G:(E2 B2 E3 G3):h.  // Full Em chord on Guitar, held for 3 beats
+8:1.00 K:(E3 G3 B3 E4):h.  // Full Em chord on Keyboard, held for 3 beats
+8:1.50 D:RideE:e           // Ride continues pattern under sustained chords
+8:2.00 D:RideE:q
+8:2.50 D:RideE:e
+8:3.00 D:(Snare RideE):q   // Snare hit with Ride on beat 3
+// Final rhythmic punch to end the 8 bars decisively.
+8:4.00 D:(Kick Snare Crash1):e
+8:4.00 B:E1:e
+8:4.00 G:(E2 B2 E3):e      // Quick Em power chord stab
+8:4.00 K:(E3 G3 B3):e      // Quick Em stab
+8:4.50 D:TomL:e            // Final tom hit
+// End of 8-bar prog rock segment.
